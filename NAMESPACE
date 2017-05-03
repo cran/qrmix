@@ -1,0 +1,14 @@
+export(qrmix, Huber, Bisquare)
+
+S3method(plot, qrmix)
+S3method(predict, qrmix)
+S3method(print, qrmix)
+S3method(summary, qrmix)
+S3method(print, summary.qrmix)
+S3method(qrmix,default)
+
+import(MASS, quantreg)
+
+importFrom("grDevices", "rainbow")
+importFrom("graphics", "abline", "boxplot", "lines", "par", "plot")
+importFrom("stats", "coef", "density", "lm", "model.frame","model.matrix", "model.response", "predict", "residuals")
